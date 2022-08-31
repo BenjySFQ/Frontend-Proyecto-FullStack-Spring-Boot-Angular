@@ -10,7 +10,7 @@
   
   
           <form (ngSubmit) = "formSubmit()">
-            <mat-form-field class="full-width"  appearance = "outline" width="50">
+            <mat-form-field class="full-width"  appearance = "outline">
               <mat-label>Nombre de usuario</mat-label>
               <input required [(ngModel)] = "user.username" name = "username" matInput placeholder="Digite su nombre de usuario">
               <mat-hint>El nombre de usuario debe ser único</mat-hint>
